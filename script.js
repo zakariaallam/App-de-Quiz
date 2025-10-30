@@ -71,7 +71,7 @@ function change_quistion(indix){
           button_repons.style.backgroundColor = "white"
           
       }else{
-        button_repons.style.backgroundColor = "green"
+        button_repons.style.backgroundColor = "green" 
       }
 
       check_repons(button_repons)
