@@ -73,6 +73,8 @@ function change_quistion(indix){
       }else{
         button_repons.style.backgroundColor = "green"
       }
+
+      check_repons(button_repons)
     })
   }
     page_Quiz.appendChild(button);
@@ -113,7 +115,6 @@ function scor(){
 }
 
 button.addEventListener("click",()=>{
-  check_repons(btn)
   if(nuber_question < 3){
        clear();
        nuber_question++;
